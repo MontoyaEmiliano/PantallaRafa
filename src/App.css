@@ -258,3 +258,32 @@ body {
   font-size: 12px;
   font-weight: 500;
 }
+
+.header-right {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.status-line {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+  gap: 8px;
+}
+
+.fullscreen-btn {
+  background-color: #334155;
+  border: none;
+  border-radius: 6px;
+  color: #94a3b8;
+  padding: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.fullscreen-btn:hover {
+  background-color: #475569;
+}

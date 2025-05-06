@@ -7,6 +7,9 @@ import HomeWeather from './components/HomeWeather';
 import DailyJoke from './components/DailyJoke';
 import HiddenGame from './components/HiddenGame';
 import TodoList from './components/ToDoList';
+import DailyGiphy from './components/DailyGiphy';
+import SystemStats from './components/SystemStats';
+import TerminalTips from './components/TerminalTips';
 
 function App() {
   return (
@@ -21,6 +24,10 @@ function App() {
         <DailyJoke />
         <TodoList />
         <HiddenGame />
+        <DailyGiphy />
+        <TerminalTips />
+        <SystemStats />
+        
       </div> 
 
       <Footer />
