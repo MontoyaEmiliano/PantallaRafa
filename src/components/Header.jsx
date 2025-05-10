@@ -29,7 +29,7 @@ function Header() {
   return (
     <div className="header">
       <h1>
-        <span className="terminal-prefix">&gt;</span> LAB SYSTEMS // IBERO PUEBLA
+        <span className="terminal-prefix">&gt;</span> LIARE // IBERO PUEBLA
       </h1>
 
       <div className="header-right">
